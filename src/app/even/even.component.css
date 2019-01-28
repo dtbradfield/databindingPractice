@@ -1,0 +1,12 @@
+p {
+    color: blue;
+    text-align: right;
+}
+
+h3 {
+    color: blue;
+    background-color: lightskyblue;
+    border: solid 1px blue;
+    text-align: right;
+    padding: 2%;
+}

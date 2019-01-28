@@ -1,9 +1,9 @@
 <div class="col-md-4" style="align-content: center;">
-    <app-game-control></app-game-control>
+    <app-game-control (intervalStarted)="onIntervalStarted($event)"></app-game-control>
 </div>
 <div class="col-md-4">
-    <app-odd></app-odd>
+    <app-odd *ngFor="let oddNumber of oddNumbers" [number]="oddNumber"></app-odd>
 </div>
 <div class="col-md-4">
-    <app-even></app-even>
+    <app-even *ngFor="let evenNumber of evenNumbers" [number]="evenNumber"></app-even>
 </div> 

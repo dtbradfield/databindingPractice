@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'databinding-assignment';
+  oddNumbers: number[] = [];
+  evenNumbers: number[] = [];
+
+  onIntervalStarted(startNumber: number) {
+    if (startNumber % 2 == 0) {
+      this.evenNumbers.push(startNumber);
+    } else {
+      this.oddNumbers.push(startNumber);
+    }
+  }
 }

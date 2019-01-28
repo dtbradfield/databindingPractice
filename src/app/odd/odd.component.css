@@ -1,0 +1,11 @@
+p {
+    color: green;
+}
+
+h3 {
+    color: green;
+    background-color: lightgreen;
+    border: solid 1px green;
+    text-align: left;
+    padding: 2%;
+}
